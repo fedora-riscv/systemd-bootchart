@@ -46,7 +46,7 @@ are displayed separately.
 %doc README
 %config(noreplace) %{_sysconfdir}/systemd/bootchart.conf
 %{_unitdir}/systemd-bootchart.service
-/usr/lib/systemd/%{name}
+%{_unitdir}/../%{name}
 %{_mandir}/man1/%{name}.1*
 %{_mandir}/man5/bootchart.conf.5*
 %{_mandir}/man5/bootchart.conf.d.5*
