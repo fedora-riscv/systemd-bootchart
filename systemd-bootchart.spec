@@ -52,8 +52,8 @@ are displayed separately.
 %{_mandir}/man5/bootchart.conf.d.5*
 
 %changelog
-* Wed Sep 21 2016 Fabio Alessandro Locati <fale@redhat.com> - 231-2
+* Wed Sep 21 2016 Fabio Alessandro Locati <fale@fedoraproject.org> - 231-2
 - Improve SPEC file thanks to suggestions during review
 
-* Tue Sep 20 2016 Fabio Alessandro Locati <fale@redhat.com> - 231-1
+* Tue Sep 20 2016 Fabio Alessandro Locati <fale@fedoraproject.org> - 231-1
 - Initial packaging
