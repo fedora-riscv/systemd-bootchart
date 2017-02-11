@@ -1,6 +1,6 @@
 Name:		systemd-bootchart
 Version:	231
-Release:	2%{?dist}
+Release:	3%{?dist}
 Summary:	Boot performance graphing tool 
 
 License:	GPLv2+ and LGPLv2+
@@ -52,6 +52,9 @@ are displayed separately.
 %{_mandir}/man5/bootchart.conf.d.5*
 
 %changelog
+* Sat Feb 11 2017 Fedora Release Engineering <releng@fedoraproject.org> - 231-3
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_26_Mass_Rebuild
+
 * Wed Sep 21 2016 Fabio Alessandro Locati <fale@fedoraproject.org> - 231-2
 - Improve SPEC file thanks to suggestions during review
 
