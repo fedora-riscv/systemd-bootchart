@@ -31,6 +31,9 @@ are displayed separately.
 %install
 %make_install
 
+%check
+make check
+
 %post
 %systemd_post %{name}.service
 
