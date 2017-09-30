@@ -1,12 +1,11 @@
 Name:           systemd-bootchart
-Version:        232
+Version:        233
 Release:        1%{?dist}
 Summary:        Boot performance graphing tool
 
 License:        GPLv2+ and LGPLv2+
 URL:            https://github.com/systemd/systemd-bootchart
 Source0:        https://github.com/systemd/%{name}/releases/download/v%{version}/%{name}-%{version}.tar.xz
-Patch1:         systemd-bootchart-no-xlocale.patch
 
 BuildRequires:  gcc
 BuildRequires:  systemd
@@ -53,6 +52,9 @@ are displayed separately.
 %{_mandir}/man5/bootchart.conf.d.5*
 
 %changelog
+* Sat Sep 30 2017 Igor Gnatenko <ignatenkobrain@fedoraproject.org> - 233-1
+- Update to 233
+
 * Sun Sep 10 2017 Peter Robinson <pbrobinson@fedoraproject.org> 232-1
 - new upstream 232 release
 
