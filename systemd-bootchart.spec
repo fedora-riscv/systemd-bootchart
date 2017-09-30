@@ -1,12 +1,12 @@
-Name:		systemd-bootchart
-Version:	232
-Release:	1%{?dist}
-Summary:	Boot performance graphing tool 
+Name:           systemd-bootchart
+Version:        232
+Release:        1%{?dist}
+Summary:        Boot performance graphing tool 
 
-License:	GPLv2+ and LGPLv2+
-URL:		https://github.com/systemd/systemd-bootchart
-Source0:	https://github.com/systemd/%{name}/releases/download/v%{version}/%{name}-%{version}.tar.xz
-Patch1:		systemd-bootchart-no-xlocale.patch
+License:        GPLv2+ and LGPLv2+
+URL:            https://github.com/systemd/systemd-bootchart
+Source0:        https://github.com/systemd/%{name}/releases/download/v%{version}/%{name}-%{version}.tar.xz
+Patch1:         systemd-bootchart-no-xlocale.patch
 
 BuildRequires: gcc
 BuildRequires: systemd
