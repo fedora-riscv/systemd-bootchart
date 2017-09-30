@@ -26,7 +26,7 @@ are displayed separately.
 %autosetup -p1
 
 %build
-%configure
+%configure --disable-silent-rules
 %make_build
 
 %install
