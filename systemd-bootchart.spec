@@ -8,11 +8,11 @@ URL:            https://github.com/systemd/systemd-bootchart
 Source0:        https://github.com/systemd/%{name}/releases/download/v%{version}/%{name}-%{version}.tar.xz
 Patch1:         systemd-bootchart-no-xlocale.patch
 
-BuildRequires: gcc
-BuildRequires: systemd
-BuildRequires: systemd-devel
-BuildRequires: libxslt-devel
-BuildRequires: docbook-style-xsl
+BuildRequires:  gcc
+BuildRequires:  systemd
+BuildRequires:  systemd-devel
+BuildRequires:  libxslt-devel
+BuildRequires:  docbook-style-xsl
 %{?systemd_requires}
 
 %description
