@@ -1,7 +1,7 @@
 Name:           systemd-bootchart
 Version:        232
 Release:        1%{?dist}
-Summary:        Boot performance graphing tool 
+Summary:        Boot performance graphing tool
 
 License:        GPLv2+ and LGPLv2+
 URL:            https://github.com/systemd/systemd-bootchart
