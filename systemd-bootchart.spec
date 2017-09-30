@@ -10,8 +10,8 @@ Patch1:         systemd-bootchart-no-xlocale.patch
 
 BuildRequires:  gcc
 BuildRequires:  systemd
-BuildRequires:  systemd-devel
-BuildRequires:  libxslt-devel
+BuildRequires:  pkgconfig(libsystemd) >= 221
+BuildRequires:  %{_bindir}/xsltproc
 BuildRequires:  docbook-style-xsl
 %{?systemd_requires}
 
