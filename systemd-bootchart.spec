@@ -23,8 +23,7 @@ process and are later rendered in an SVG chart. The timings for each services
 are displayed separately.
 
 %prep
-%setup -q
-%patch1 -p1 -b .xlocale
+%autosetup -p1
 
 %build
 %configure
